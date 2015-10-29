@@ -9,3 +9,4 @@ grocery(g)
 	$grocery_list.each do |n|
 	puts "* #{n}"
 end
+puts $grocery_list.count
