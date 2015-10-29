@@ -8,9 +8,10 @@ grocery(g)
 $grocery_list.each do |x|
 $b = (x == "bananas"? "y":"n")
 # x == "bananas"
-	puts "* #{x}"
+# puts "* #{x}"
 end
-puts $b
+# puts $b
 # puts (b==true ? "You don't need to pick up bananas today":"You need to pick up bananas today")
-puts ($b=="y"? "You don't need to pick up bananas today":"You need to pick up bananas today")
-puts $grocery_list.count
+# puts ($b=="y"? "You don't need to pick up bananas today":"You need to pick up bananas today")
+# puts $grocery_list.count
+puts "The second item on the list is #{$grocery_list[1]}"
